@@ -13,8 +13,8 @@
             "architecture": "avr",
             "version": "1.0.0",
             "category": "Contributed",
-            "url": "https://gitlab.com/sangavalerian/sangaboard_arduino_ide/sangaboard-1.0.0.zip",
-            "archiveFileName": "sangaboard-1.0.0.zip",
+            "url": "https://gitlab.com/sangavalerian/sangaboard_arduino_ide/sangaboard.zip",
+            "archiveFileName": "sangaboard.zip",
             "checksum": "SHA-256:cc57065c2cbc4738ac447e5217e22d12bae1f36d8bd2f76d3cdcef7291d1e939",
             "size": "5505287",
             "boards": [
