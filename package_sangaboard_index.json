@@ -18,6 +18,7 @@
             "checksum": "SHA-256:cc57065c2cbc4738ac447e5217e22d12bae1f36d8bd2f76d3cdcef7291d1e939",
             "size": "5505287",
             "boards": [
+              {"name": "sangaboard v2"}
               {"name": "sangaboard v3"},
               {"name": "sangaboard v4"}
             ],
