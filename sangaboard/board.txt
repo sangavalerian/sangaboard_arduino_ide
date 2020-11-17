@@ -1,0 +1,81 @@
+##############################################################
+
+# Menu options
+menu.btype=Board Type
+
+
+
+#######################
+#### sangaboard_v3 ####
+#######################
+
+sangaboard.name=Sangaboard
+sangaboard.vid.0=0xF055
+sangaboard.pid.0=0x5AB0
+
+sangaboard.menu.btype.sangaboard_v3=sangaboard_v3
+
+sangaboard.menu.btype.sangaboard_v3.upload.tool=avrdude
+sangaboard.menu.btype.sangaboard_v3.upload.protocol=avr109
+sangaboard.menu.btype.sangaboard_v3.upload.maximum_size=28672
+sangaboard.menu.btype.sangaboard_v3.upload.maximum_data_size=2560
+sangaboard.menu.btype.sangaboard_v3.upload.speed=57600
+sangaboard.menu.btype.sangaboard_v3.upload.disable_flushing=true
+sangaboard.menu.btype.sangaboard_v3.upload.use_1200bps_touch=true
+sangaboard.menu.btype.sangaboard_v3.upload.wait_for_upload_port=true
+
+sangaboard.menu.btype.sangaboard_v3.bootloader.tool=avrdude
+sangaboard.menu.btype.sangaboard_v3.bootloader.low_fuses=0xff
+sangaboard.menu.btype.sangaboard_v3.bootloader.high_fuses=0xd8
+sangaboard.menu.btype.sangaboard_v3.bootloader.extended_fuses=0xcb
+sangaboard.menu.btype.sangaboard_v3.bootloader.file=sangaboard/sangaboard_bootloader.hex
+sangaboard.menu.btype.sangaboard_v3.bootloader.unlock_bits=0x3F
+sangaboard.menu.btype.sangaboard_v3.bootloader.lock_bits=0x2F
+
+sangaboard.menu.btype.sangaboard_v3.build.mcu=atmega32u4
+sangaboard.menu.btype.sangaboard_v3.build.f_cpu=16000000L
+sangaboard.menu.btype.sangaboard_v3.build.vid=0xF055
+sangaboard.menu.btype.sangaboard_v3.build.pid=0x5AB0
+sangaboard.menu.btype.sangaboard_v3.build.usb_product="Sangaboard v0.3"
+sangaboard.menu.btype.sangaboard_v3.build.board=SANGABOARD
+sangaboard.menu.btype.sangaboard_v3.build.core=arduino
+sangaboard.menu.btype.sangaboard_v3.build.variant=sangaboard
+sangaboard.menu.btype.sangaboard_v3.build.extra_flags={build.usb_flags}
+
+
+#######################
+#### sangaboard_v4 ####
+#######################
+
+sangaboard.name=Sangaboard
+sangaboard.vid.0=0xF055
+sangaboard.pid.0=0x5AB0
+
+sangaboard.menu.btype.sangaboard_v4=sangaboard_v4 (Pi-Hat)
+
+sangaboard.menu.btype.sangaboard_v4.upload.tool=avrdude
+sangaboard.menu.btype.sangaboard_v4.upload.protocol=avr109
+sangaboard.menu.btype.sangaboard_v4.upload.maximum_size=28672
+sangaboard.menu.btype.sangaboard_v4.upload.maximum_data_size=2560
+sangaboard.menu.btype.sangaboard_v4.upload.speed=57600
+sangaboard.menu.btype.sangaboard_v4.upload.disable_flushing=true
+sangaboard.menu.btype.sangaboard_v4.upload.use_1200bps_touch=true
+sangaboard.menu.btype.sangaboard_v4.upload.wait_for_upload_port=true
+
+sangaboard.menu.btype.sangaboard_v4.bootloader.tool=avrdude
+sangaboard.menu.btype.sangaboard_v4.bootloader.low_fuses=0xff
+sangaboard.menu.btype.sangaboard_v4.bootloader.high_fuses=0xd8
+sangaboard.menu.btype.sangaboard_v4.bootloader.extended_fuses=0xcb
+sangaboard.menu.btype.sangaboard_v4.bootloader.file=sangaboard/sangaboard_bootloader.hex
+sangaboard.menu.btype.sangaboard_v4.bootloader.unlock_bits=0x3F
+sangaboard.menu.btype.sangaboard_v4.bootloader.lock_bits=0x2F
+
+sangaboard.menu.btype.sangaboard_v4.build.mcu=atmega32u4
+sangaboard.menu.btype.sangaboard_v4.build.f_cpu=8000000L
+sangaboard.menu.btype.sangaboard_v4.build.vid=0xF055
+sangaboard.menu.btype.sangaboard_v4.build.pid=0x5AB0
+sangaboard.menu.btype.sangaboard_v4.build.usb_product="Sangaboard v0.4"
+sangaboard.menu.btype.sangaboard_v4.build.board=SANGABOARD
+sangaboard.menu.btype.sangaboard_v4.build.core=arduino
+sangaboard.menu.btype.sangaboard_v4.build.variant=sangaboard
+sangaboard.menu.btype.sangaboard_v4.build.extra_flags={build.usb_flags}
