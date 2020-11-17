@@ -15,7 +15,7 @@
             "category": "Contributed",
             "url": "https://gitlab.com/sangavalerian/sangaboard_arduino_ide/sangaboard.zip",
             "archiveFileName": "sangaboard.zip",
-            "checksum": "SHA-256:cc57065c2cbc4738ac447e5217e22d12bae1f36d8bd2f76d3cdcef7291d1e939",
+            "checksum": "SHA-256:ff97027117fda39934ca04e775a6fd4634246318c619f501dd1e860d85999b38",
             "size": "5505287",
             "boards": [
               {"name": "sangaboard v2"}
